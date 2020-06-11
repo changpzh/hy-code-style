@@ -11,8 +11,6 @@
 * [Rule 7. 切勿修改内置对象的原型（如“对象”或“数组”）](#T-rule7)
 * [Rule 8. `eval` is Evil](#T-rule8)
 * [Rule 9. 注意不直观的布尔表达式](#T-rule9)
-* [Rule 9. 注意不直观的布尔表达式](#T-rule9)
-* [Rule 9. 注意不直观的布尔表达式](#T-rule9)
 * [Rule 10. `&&`和`||`二进制布尔运算符是短循环的，并求值到最后求值的项](#T-rule10)
 * [Rule 11. 始终使用非阻塞I / O函数](#T-rule11)
 * [Rule 12. 始终使用async/await或者Promises编写异步代码](#T-rule12)
