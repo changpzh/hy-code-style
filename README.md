@@ -4,7 +4,6 @@
 * [Rule 1. 在声明变量的时候总是用 `let|const`, 不允许使用var](#T-rule1)
 * [Rule 2. 永远记住使用";"，禁止依靠自动分号插入](#T-rule2)
 * [Rule 3. 所有的变量和函数都必须先定义再使用](#T-rule3)
-* [Rule 3. 所有的变量和函数都必须先定义再使用](#T-rule3)
 * [Rule 4. 你应当使用嵌套函数](#T-rule4)
 * [Rule 5. 你不应当使用 `for`, `while` 和 `for-in` 对arrays 或者 objects 进行循环](#T-rule5)
 * [Rule 6. 使用`Array` 和 `Object`的字面量形式，而不是是它们的构造形式](#T-rule6)
@@ -88,11 +87,11 @@ function foo() {
 ```javascript
 
 function foo() {
-    let innerFoo = function() {
+    let innerFoo = function() { //函数表达式
         return true;
     }; 
     return true;
-} 
+}
 ```
 
 ***
