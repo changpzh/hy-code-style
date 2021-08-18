@@ -426,6 +426,15 @@ var myString = "A rather long string of English text, an error message " +
 
 ### <a name="T-rule18"></a>Rule 18. 更改输入参数的函数应具有建议输入的名称
 
+![badExample][badExample] Bad example, do not do this:
+
+```javascript
+function calculateSomething(someObject) {
+    someObject.calculations = someObject.a + someObject.b;
+    return someObject.calculations;
+}
+```
+
 ![goodExample][goodExample] Good example
 
 ```javascript
@@ -434,16 +443,7 @@ function insertParameterToManagedObject(managedObject, parameter) {
 }
 ```
 
-![badExample][badExample] Bad example
 
-![warning][warning] do not do this:
-
-```javascript
-function calculateSomething(someObject) {
-    someObject.calculations = someObject.a + someObject.b;
-    return someObject.calculations;
-}
-```
 
 ***
 
