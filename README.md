@@ -103,9 +103,9 @@ function foo() {
 通常，请使用`functionNamesLikeThis`，`variableNamesLikeThis`，`ClassNamesLikeThis`，`EnumNamesLikeThis`，`methodNamesLikeThis`，`CONSTANT_VALUES_LIKE_THIS`，`foo.namespaceNamesLikeThis.bar`和`fileNamesLikeThis.js`。
 
 * 请勿在名称中使用$ *（美元符号）*或\ *（反斜杠）*。
-* 请勿使用_ *（下划线）*作为名称的第一个或最后一个字符。它有时旨在表示隐私，但实际上并不提供隐私。如果隐私很重要，请使用提供[私人成员]（http://javascript.crockford.com/private.html）的表格。
+* 请勿使用_ *（下划线）*作为名称的第一个或最后一个字符。它有时旨在表示隐私，但实际上并不提供隐私。如果隐私很重要，请使用提供[私人成员](http://javascript.crockford.com/private.html)的表格。
 * 大多数变量和函数应以小写字母开头。
-* 必须与[`new`前缀]（http://yuiblog.com/blog/2006/11/13/javascript-we-hardly-new-ya/）一起使用的构造函数应以大写字母开头。如果省略了必需的新代码，JavaScript既不会发出编译时警告，也不会发出运行时警告。如果不使用“ new”，可能会发生不好的事情，因此大写约定是我们唯一的辩护。
+* 必须与[`new`前缀](http://yuiblog.com/blog/2006/11/13/javascript-we-hardly-new-ya/)一起使用的构造函数应以大写字母开头。如果省略了必需的新代码，JavaScript既不会发出编译时警告，也不会发出运行时警告。如果不使用“ new”，可能会发生不好的事情，因此大写约定是我们唯一的辩护。
 * 全局变量应大写。 （JavaScript没有宏或常量，因此使用所有大写字母来表示JavaScript没有的功能没有多大意义。）
 
 ### <a name="T-rule8"></a>Rule 8.使用新的空行来划分一组逻辑上相关联的代码片段
